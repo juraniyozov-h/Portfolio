@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url('https://wallpapers.com/images/hd/4k-tech-fi904sfb2h6pmfhs.jpg');
+background-repeat: no-repeat;
+background-position: center;
+backdrop-filter: blur(5px);
+   background-attachment: fixed;}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header{
+  max-width: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+  padding: 1rem 2rem;
+  backdrop-filter: blur(20px);
+ 
+  
+
+border-radius: 0 0 20px 20px;
+}
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo{
+  width: 100px;
+  height: 100px;
+ text-align: center;
+}
+.header__logo img{
+  width: 100%;
+  height: 100%;
+}
+.header__list{
+    display: flex;
+    gap: 20px;
+}
+.header__list li{
+list-style-type: none;
+
+}
+.header__list a:hover {
+  color: #20e7e0;
+  animation: bounce 0.6s ease;
+  transform: translateY(-2px);
+}
+
+/* Tebranish animatsiyasi */
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-5px); }
+  50%  { transform: translateY(0); }
+  70%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+.header__list a{
+    text-decoration: none;
+    color: white;
+     font-family: "Open Sans", sans-serif;
+}
+
+
+/* about */
+
+
+.about {
+  
+  padding-top: 100px;
+}
+.about__wrapper{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+.about__text {
+  flex: 1;
+  min-width: 280px;
+  text-align: start;
+}
+
+.about__text h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+   font-family: "Inter", sans-serif;
+   color: wheat;
+}
+
+.about__text p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+   font-family: "Lato", sans-serif;
+}
+
+
+
+.about__image {
+  display: flex;
+  justify-content: center;
+  width: 630px;
+  height: 540px;
+}
+.about__image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+/* projects */
+
+
+.projects {
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 90px;
+  color: white;
+}
+.projects__wrapper{
+    padding-top: 100px;
+}
+
+/* Har bir karta */
+.project__card {
+  background-color: #646161ed;
+  border: 1px solid #646161ed;
+  border-radius: 50px;
+  padding: 20px;
+  width: 440px;
+  height: 630px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.project__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 10px rgba(248, 3, 3, 0.263);
+}
+.project__top{
+ display: flex;
+  justify-content: space-between;
+}
+.project__middle{
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0;
+}
+.project__bottom{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.project__card img {
+  width: 398px;
+  height: 531px;
+  border-radius: 80px;
+  margin-bottom: 15px;
+}
+
+.project__card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: rgb(211, 211, 18);
+  text-align: center;
+   font-family: "Roboto Mono", monospace;
+}
+
+.project__card p {
+  font-size: 16px;
+  color: rgb(245, 242, 242);
+  margin-bottom: 10px;
+  text-align: center;
+}
+.ustozim__nurim{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+
+
+

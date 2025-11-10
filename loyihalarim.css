@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background-image: url('https://wallpapers.com/images/hd/4k-tech-fi904sfb2h6pmfhs.jpg');
+background-repeat: no-repeat;
+background-position: center;
+backdrop-filter: blur(5px);
+   background-attachment: fixed;
+}
+html, body{
+  scroll-behavior: smooth;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;   
+}
+.header{
+  max-width: auto;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+  padding: 1rem 2rem;
+  backdrop-filter: blur(20px);
+ 
+  
+
+border-radius: 0 0 20px 20px;
+}
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo{
+  width: 100px;
+  height: 100px;
+ text-align: center;
+}
+.header__logo img{
+  width: 100%;
+  height: 100%;
+}
+.header__list{
+    display: flex;
+    gap: 20px;
+}
+.header__list li{
+list-style-type: none;
+}
+.header__list a:hover {
+  color: #20e7e0;
+  animation: bounce 0.6s ease;
+  transform: translateY(-2px);
+}
+
+/* Tebranish animatsiyasi */
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-5px); }
+  50%  { transform: translateY(0); }
+  70%  { transform: translateY(-3px); }
+  100% { transform: translateY(0); }
+}
+.header__list a{
+    text-decoration: none;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Loyihalar */
+.projects {
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 28px;
+  margin-bottom: 90px;
+   font-family: "Inter", sans-serif;
+   color: white;
+}
+.projects__wrapper{
+    padding-top: 100px;
+}
+
+/* Har bir karta */
+.project__card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 16px;
+  padding: 20px;
+  width: 440px;
+  text-align: left;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.project__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 10px rgba(248, 3, 3, 0.263);
+}
+.project__top{
+ display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.project__bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.project__card img {
+  width: 100%;
+  height: 247px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project__card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+   font-family: "Inter", sans-serif;
+}
+
+.project__card p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+   font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Taglar */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tags span {
+  background-color: #f2f2f2;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #333;
+}
