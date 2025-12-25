@@ -159,6 +159,9 @@ color: wheat;
 }
 .projects__wrapper{
     padding-top: 100px;
+    display: flex;
+  flex-direction: column;
+  gap: 70px;
 }
 
 /* Har bir karta */
@@ -171,6 +174,7 @@ color: wheat;
   text-align: left;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   transition: transform 0.3s;
+  
 }
 
 .project__card:hover {
@@ -180,11 +184,12 @@ color: wheat;
 .project__top{
  display: flex;
   justify-content: space-between;
-  margin-bottom: 70px;
+  align-items: center;
 }
 .project__bottom{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .project__card img {
   width: 100%;

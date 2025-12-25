@@ -1,137 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hojiakbar Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./source/logotip.svg" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-</head>
-<body>
- <header class="header">
-        
+    <link rel="shortcut icon" href="./source/logotip.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <img src="./source/logotip.svg" alt="Hojiakbar logo" />
+          </div>
+          <ul class="header__list">
+            <li>
+              <a href="#">Men haqimda</a>
+            </li>
+            <li>
+              <a href="./guruhim.html">Mening Guruhim</a>
+            </li>
+            <li>
+              <a href="./loyihalarim.html">Mening loyihalarim</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!-- Intro qismi -->
+      <section class="intro">
         <div class="container">
-           <div class="header__wrapper">
-             <div class="header__logo">
-                <img src="./source/logotip.svg" alt="">
+          <div class="intro__wrapper">
+            <div class="intro__text">
+              <h1>Salom<br />Men Hojiakbar</h1>
+              <p>PDP maktabida 10-C sinfida o'qiyman.</p>
+              <a href="#project" class="btn">Loyihalarim</a>
             </div>
-            <ul class="header__list">
-                <li>
-                    <a href="./index.html">Men haqimda</a>
-                </li>
-                <li>
-                    <a href="./guruhim.html">Mening Guruhim</a>
-                </li>
-                <li>
-                    <a href="./loyihalarim.html">Mening loyihalarim</a>
-                </li>
-            </ul>
-         </div>
+
+            <div class="intro__image">
+              <img src="./source/me.JPG" alt="Men Hojiakbar" />
+            </div>
+          </div>
         </div>
-  
-</header>
-<main class="main">
-  <!-- Intro qismi -->
-  <section class="intro">
-    <div class="container">
-      <div class="intro__wrapper">
-        <div class="intro__text">
-      <h1>Salom<br>Men Hojiakbar</h1>
-      <p>PDP maktabida 10-C sinfida o'qiyman.</p>
-      <a href="#project" class="btn">Loyihalarim</a>
-    </div>
+      </section>
 
-    <div class="intro__image">
-      <img src="./source/me.JPG" alt="Men Hojiakbar" />
-    </div>
-      </div>
-    </div>
-      
-  </section>
-
-    <!-- Loyihalar qismi -->
-  <section class="projects">
-    <div class="container">
-      <div id="project" class="projects__wrapper">
-        <h2>Loyihalarim</h2>
-        <div class="project__top">
-            <!-- 1 -->
+      <!-- Loyihalar qismi -->
+      <section class="projects">
+        <div class="container">
+          <div id="project" class="projects__wrapper">
+            <h2>Loyihalarim</h2>
+            <div class="project__top">
+              <!-- 1 -->
               <div data-aos="zoom-out-right">
-      <div class="project__card">
-       <a href="https://sports-neon.netlify.app/"> <img src="./source/sports-neon.jpeg" alt="" /></a>
-        <h3>Sports Neon</h3>
-        <p>Blur va position bilan ishlash</p>
-        <div class="tags">
-          <span>HTML</span>
-          <span>CSS</span>
+                <div class="project__card">
+                  <a href="https://sports-neon.netlify.app/">
+                    <img src="./source/sports-neon.jpeg" alt="sports-neon"
+                  /></a>
+                  <h3>Sports Neon</h3>
+                  <p>Blur va position bilan ishlash</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div data-aos="zoom-out-left">
+                <div class="project__card">
+                  <a href="https://aquaflow-hojiakbar.netlify.app/"
+                    ><img src="./source/aquaflow.jpeg" alt="aquaflow"
+                  /></a>
+                  <h3>Aquaflow</h3>
+                  <p>Animatsiya bilan ishlash</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>ANIMATION</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project__bottom">
+              <!-- 3 -->
+              <div data-aos="zoom-out-right">
+                <div class="project__card">
+                  <a href="https://clerksy-juraniyozovhojiakbar.netlify.app/">
+                    <img src="./source/Clerksy.jpg" alt="clerksy"
+                  /></a>
+                  <h3>Clerksy</h3>
+                  <p>Cssda position bilan ishlash</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>position</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div data-aos="zoom-out-left">
+                <div class="project__card">
+                  <a href="https://vroom-vista.netlify.app/">
+                    <img src="./source/vroom-vista.jpeg" alt="vroom vista"
+                  /></a>
+                  <h3>Vroom Vista</h3>
+                  <p>hover vazifasi va qo'llainsh uslubi</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>:hover</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project__bottom">
+              <!-- 5 -->
+              <div data-aos="zoom-out-right">
+                <div class="project__card">
+                  <a href="#">
+                    <img src="./source/facebook-struktura.png" alt="facebook"
+                  /></a>
+                  <h3>Facebook</h3>
+                  <p>position x va y o'qida scroll</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>position</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 6 -->
+              <div data-aos="zoom-out-left">
+                <div class="project__card">
+                  <a href="https://shopcoo-site.netlify.app/">
+                    <img src="./source/shop.co.png" alt="shop.co"
+                  /></a>
+                  <h3>Shop.co</h3>
+                  <p>Kiyim-kechak sotuv sayti</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>overflow</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project__bottom">
+              <!-- 7 -->
+              <div data-aos="zoom-out-right">
+                <div class="project__card">
+                  <a href="https://tutorify-website.netlify.app/">
+                    <img src="./source/tutorify.png" alt="tutorify"
+                  /></a>
+                  <h3>Tutorify</h3>
+                  <p>Tutorify o'quv kursi</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>position</span>
+                  </div>
+                </div>
+              </div>
+              <!-- 8 -->
+              <div data-aos="zoom-out-left">
+                <div class="project__card">
+                  <a href="https://portfolio-by-chisom.netlify.app/">
+                    <img
+                      src="./source/portfolio-by-chisom.png"
+                      alt="portfolio by chisom"
+                  /></a>
+                  <h3>Vroom Vista</h3>
+                  <p>hover vazifasi va qo'llainsh uslubi</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>:hover</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project__bottom">
+              <!-- 9 -->
+              <div data-aos="zoom-out-right">
+                <div class="project__card">
+                  <a href="https://loom-site.netlify.app/">
+                    <img src="./source/loom.png" alt="loom"
+                  /></a>
+                  <h3>Loom</h3>
+                  <p>Loom AI</p>
+                  <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>position</span>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+
+
+            
+          </div>
         </div>
-        
-      </div>
-      </div>
-      <!-- 2 -->
-       <div data-aos="zoom-out-left">
-      <div class="project__card">
-        <a href="https://aquaflow-hojiakbar.netlify.app/"><img src="./source/aquaflow.jpeg" alt="" /></a>
-        <h3>Aquaflow</h3>
-        <p>Animatsiya bilan ishlash</p>
-        <div class="tags">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>ANIMATION</span>
-        </div>
-       
-      </div>
-      </div>
-        </div>
-    <div class="project__bottom">
-          <!-- 3 -->
-            <div data-aos="zoom-out-right">
-      <div class="project__card">
-       <a href="https://clerksy-juraniyozovhojiakbar.netlify.app/"> <img src="./source/Clerksy.jpg" alt="" /></a>
-        <h3>Clerksy</h3>
-        <p>Cssda position bilan ishlash</p>
-        <div class="tags">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>position</span>
-        </div>
-       
-      </div>
-      </div>
-      <!-- 4 -->
-          <div data-aos="zoom-out-left">
-     <div class="project__card">
-      <a href="https://vroom-vista.netlify.app/"> <img src="./source/vroom-vista.jpeg" alt="" /></a>
-       <h3>Vroom Vista</h3>
-       <p>hover vazifasi va qo'llainsh uslubi</p>
-       <div class="tags">
-         <span>HTML</span>
-         <span>CSS</span>
-         <span>:hover</span>
-        </div>
-        
-      </div>
-      </div>
+      </section>
+    </main>
 
-
-    </div>
-    </div>
-      </div>
-    </div>
-  </section>
-
-
-</main>
-
-
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-</body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
